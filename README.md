@@ -31,8 +31,8 @@ La phase **Map** prend en entrée des données brutes sous forme de paires clé/
 
 - La clé est le décalage de la ligne dans le fichier (position en octets).
 - La valeur est le contenu de la ligne.
-  
-- Le **Mapper** extrait la ville et le prix, puis émet une paire clé/valeur 
+
+- Le **Mapper** extrait la ville et le prix, puis émet une paire clé/valeur
 
 #### Phase 2 : Le Reducer
 
@@ -40,13 +40,23 @@ La phase **Reduce** prend toutes les paires générées par les **Mappers** et r
 
 
 
-## Exécution
+## Exécution EX1
 ![Texte alternatif](screenshots/img_6.png)
 ![Texte alternatif](screenshots/img_7.png)
 ![Texte alternatif](screenshots/img_8.png)
 ![Texte alternatif](screenshots/img.png)
 ![Texte alternatif](screenshots/img_1.png)
 ![Texte alternatif](screenshots/img_2.png)
+#### Nombre total de ventes par Ville.
 ![Texte alternatif](screenshots/img_3.png)
-![Texte alternatif](screenshots/img_4.png)
+#### Nombre total de prix de ventes par Ville.
 ![Texte alternatif](screenshots/img_5.png)
+
+## Exécution EX2
+![Texte alternatif](screenshots/img_10.png)
+![Texte alternatif](screenshots/img_11.png)
+![Texte alternatif](screenshots/img_12.png)
+#### Nombre total de requêtes par adresse IP.
+![Texte alternatif](screenshots/img_13.png)
+#### Nombre total de requêtes réussies (code de réponse 200) par adresse IP.
+![Texte alternatif](screenshots/img_14.png)
